@@ -1,0 +1,17 @@
+D:\_csharp\Game Cars\Game Cars\bin\Debug\net6.0-windows\Game Cars.exe
+D:\_csharp\Game Cars\Game Cars\bin\Debug\net6.0-windows\Game Cars.deps.json
+D:\_csharp\Game Cars\Game Cars\bin\Debug\net6.0-windows\Game Cars.runtimeconfig.json
+D:\_csharp\Game Cars\Game Cars\bin\Debug\net6.0-windows\Game Cars.dll
+D:\_csharp\Game Cars\Game Cars\bin\Debug\net6.0-windows\Game Cars.pdb
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game_Cars.Form1.resources
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game_Cars.Properties.Resources.resources
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.csproj.GenerateResource.cache
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.GeneratedMSBuildEditorConfig.editorconfig
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.AssemblyInfoInputs.cache
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.AssemblyInfo.cs
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.csproj.CoreCompileInputs.cache
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.dll
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\refint\Game Cars.dll
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.pdb
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\Game Cars.genruntimeconfig.cache
+D:\_csharp\Game Cars\Game Cars\obj\Debug\net6.0-windows\ref\Game Cars.dll
