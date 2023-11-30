@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap');
+
+* {margin: 0; padding: 0;}
+
+body {
+    font-size: 16px;
+    background: #dcf5ea;
+    color: #000;
+    height: 2000px;
+}
+
+header {
+    width: 100%;
+    background: #235e46;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+    color: white;
+    border-bottom: 3px solid #80d1b0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .kn {
+    color: white; 
+    cursor: pointer;
+    float: right;
+    width: 10%;
+    margin-right: 17%;
+    height: 30px;
+    font-weight: 600;
+    border: 2px solid #80d1b0;
+    text-align: center;
+    line-height: 28px;
+}
+
+header .kn:hover {
+    border: 3px solid #80d1b0;
+    color: #235e46;
+    background: white;
+    width: 10%;
+    margin-right: 17%;
+    height: 28px;
+    box-shadow: 3px 3px 53px 1px rgba(249,249,249,0.7);
+    -webkit-box-shadow: 3px 3px 53px 1px rgba(249,249,249,0.7);
+    -moz-box-shadow: 3px 3px 53px 1px rgba(249,249,249,0.7);
+}
+
+main img {
+    border: 1px solid #235e46;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 40px;
+box-shadow: 10px 10px 5px 0px rgba(35,94,70,0.86);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(35,94,70,0.86);
+-moz-box-shadow: 10px 10px 5px 0px rgba(35,94,70,0.86);
+background-attachment: fixed;
+}

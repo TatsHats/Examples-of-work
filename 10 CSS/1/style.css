@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap');
+
+* {margin: 0; padding: 0;}
+a {text-decoration:  none;}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    background: white;
+    color: #000;
+}
+
+header {
+    width: 100%;
+    background: #051b4f;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    float: left;
+    color: white;
+    border-bottom: 5px solid #acc4fc;
+}
+
+header .all-header {
+    width: 90%; 
+    margin: 0 5%;
+}
+
+header .all-header .language {
+    width: 100%; 
+    text-align: right;
+}
+
+header .all-header .language a {
+    font-size: 14px; 
+    color: white; 
+    font-weight: 600;
+}
+
+header .all-header .language a.active,
+header .all-header .language a:hover {
+    color: #acc4fc;
+    border-bottom: 2px solid #acc4fc;
+    margin-left: 5px;
+}
+
+header .all-header .header-main {
+    width: 100%;
+    margin-top: 20px;
+}
+
+header .all-header .header-main img {
+    height: 30px;
+    float: left;
+}
+
+header .all-header .header-main .name {
+    font-size: 28px; 
+    color: white; 
+    font-weight: 600; 
+    margin-left: 15px;
+    float: left;
+}
+
+#search {
+    float: right;
+    margin-left: 40px;    
+    border: 1;
+    background: white;
+    width: 200px;
+    height: 34px;
+    font-weight: 300;
+    font-size: 13px;
+    text-indent: 10px;
+    margin-top: -1px;
+}
+
+header .all-header .header-main a {
+    float: right;
+    color: white;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 40px;
+}
+
+header .all-header .header-main a:hover {
+    color: #acc4fc; 
+    cursor: pointer;
+}
+
+header .all-header .header-main .kn {
+    color: white; 
+    cursor: pointer;
+    float: right;
+    width: 100px;
+    margin-left: 20px;
+    height: 30px;
+    font-weight: 600;
+    border: 2px solid #acc4fc;
+    text-align: center;
+    line-height: 28px;
+}
+
+header .all-header .header-main .kn:hover {
+    border: 3px solid #acc4fc;
+    color: #051b4f;
+    background: white;
+    width: 96px;
+    height: 28px;
+    box-shadow: 3px 3px 53px 1px rgba(249,249,249,0.7);
+    -webkit-box-shadow: 3px 3px 53px 1px rgba(249,249,249,0.7);
+    -moz-box-shadow: 3px 3px 53px 1px rgba(249,249,249,0.7);
+
+}
+
+main .section h3 {
+    font-size: 24px;
+    color: #051b4f;
+    margin-left: 20px;
+    margin-bottom: 4px;
+}
+
+main .section {
+    border: 3px double #051b4f;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 700px;
+    height: 400px;
+    float: left;
+    padding: 10px;
+    text-indent: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(5,27,79,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(5,27,79,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(5,27,79,0.75);
+}
+
+main .section p {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #051b4f;
+}
+
+main .section img {
+    border: 1px solid #051b4f;
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+main .section-r1 {
+    border: 3px double #051b4f;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 400px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+    text-indent: 30px;
+    box-shadow: 5px 5px 3px 0px rgba(5,27,79,0.75);
+-webkit-box-shadow: 5px 5px 3px 0px rgba(5,27,79,0.75);
+-moz-box-shadow: 5px 5px 3px 0px rgba(5,27,79,0.75);
+}
+
+main .section-r1 h4 {
+    font-size: 18px;
+    color: #051b4f;
+    margin-left: 20px;
+    margin-bottom: 4px;
+}
+
+main .section-r1 p {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #051b4f;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    background: #051b4f;
+    color: white;
+    padding: 60px 0;
+    font-weight: 600;
+    border-top: 5px solid #acc4fc;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer .vb img {width: 5%; margin-top: 2px;}
+footer .tg img {width: 5%;}
+footer .wp img {width: 4%; margin-left: 10px;}
+footer p {margin-top: -40px; font-size: 20px;}
+
+footer .a .polit {
+    width: 100%; 
+    float: left;
+}
+
+footer .polit {
+    font-size: 14px; 
+    color: white; 
+    font-weight: 600;
+}
+
+footer .polit:hover {
+    color: #acc4fc;
+    border-bottom: 2px solid #acc4fc;
+}

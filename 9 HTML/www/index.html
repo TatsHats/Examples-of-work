@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+</head>
+<body>
+    <center><h2>Мини сайт-визитка</h2></center>
+    
+    <table cellpadding="5" cellspacing="0">
+        <tr>  
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9t_xanwNrE3qq7K-PMGMoCI-
+                CCt98Tts2lqJRPKMNTyyZSMmE5jnBVWftpOd29VaYcF0&usqp=CAU" alt="мастер-класс" title="MK Foto" width="400" height="280">
+            </td>
+            <td> Приглашаем на <b>творческий мастер-класс</b><br>
+                Начало 25.10.2023 в 18:00<br>Вход <mark>свободный</mark><br><br><br>
+                <center><i>Предварительная<br>регистрация обязательна!</i></center>
+            </td>
+        </tr>
+        <tr>  
+            <td><b><a href="https://www.youtube.com/watch?v=FHjGGBykDgQ&ab_channel=%D0%A2%D0%B2%D0%BE%D1%80%D
+            1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE-%D1%8D%D1%82%D0%BE%D0%A1%D1%87%D0%B0%D1%81%D1%82%D1%8C%D0%B5%21">
+            Нажмите, чтобы узнать подробнее</a></b><br><br>
+                <details>
+                    <summary>Для кого подойдет этот мастер-класс</summary>
+                    <ul>
+                        <li> Для взрослых</li>
+                        <li> Для детей</li>
+                        <li> Для всех</li>
+                    </ul>
+                </details>
+                <br><br><center><i>Аудио-отзыв о нашей студии:</i></center>
+                <audio controls>
+                    <source src="" type="audio/ogg; codecs=vorbis">
+                    Тег audio не работает в вашем браузере!
+                </audio>
+            </td>
+            <td>
+                <iframe width="400" height="280" src="https://www.youtube.com/embed/FHjGGBykDgQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </td>
+        </tr>
+    </table>
+
+    <center><h3>регистрация:</h3></center>
+    <form action="" method="POST" name="reg_form">
+        <label for="name">Имя</label>
+            <input type="text" name="name" id="name" width="300px" placeholder="Введите имя" required><br>
+      
+        <label for="email">Email</label>
+            <input type="email" name="email" id="email" width="300px" placeholder="Введите email" value="some@mail.ru"><br>
+    
+        <label for="password">Придумайте пароль</label>
+            <input type="password" name="password" id="password" width="300px" placeholder="Введите пароль"><br>
+    
+        <label for="person">Выберите ваш пол</label><br>
+            <input type="radio" name="person" id="person" value="male" checked>
+            <label>Мужчина</label>
+            <input type="radio" name="person" id="person" value="female">
+            <label>Женщина</label><br>
+      
+        <label for="phone">Телефон</label>
+            <input type="tel" name="phone" id="phone" width="300px" placeholder="Ваш номер телефона" required><br>
+      
+        <label for="birth">Дата рождения</label>
+            <input type="date" name="birth" id="birth" required><br> 
+      
+        <label>Ваш любимый цвет</label>
+            <input type="color" id="color"><br>
+      
+        <label for="age">Сколько Вам лет</label>
+            <input type="number" name="age" id="age" min="0" max="100" required><br>
+      
+        <label for="bio">Ваши хобби:</label><br>
+            <textarea name="bio" id="bio" width="500px" height="300px" placeholder="Спорт, машины, кулинария, рукоделие"></textarea><br><br>
+            
+        Выберите желаемый мастер-класс:
+        <select name="mk">
+            <option disabled="disabled">Выберите желаемый мастер-класс</option>
+            <option value="Sharik">Шарик</option>
+            <option value="Plusha" selected="selected">Плюша</option>
+            <option value="Bear">Медвежонок Тим</option>
+            <option value="Lunya">Луня</option>
+        </select><br><br>
+
+        <label for="file">Можете загрузить примеры Ваших работ:</label>
+        <input type="file" id="file" name="file" value="Загрузить файл"><br><br>
+        
+            <input type="checkbox">Согласен на обработку моих данных<br><br>
+
+        <input type="submit" value="Зарегистрироваться" style="background-color: #00FF00; cursor: pointer">
+        <input type="reset" value="Очистить форму" style="background-color: #ff5733; cursor: pointer">
+    </form>
+</body>
+</html>
