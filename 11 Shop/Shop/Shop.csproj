@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\**" />
+    <Compile Remove="Views\Новая папка\**" />
+    <Compile Remove="wwwroot\Images\**" />
+    <Content Remove="Images\**" />
+    <Content Remove="Views\Новая папка\**" />
+    <Content Remove="wwwroot\Images\**" />
+    <EmbeddedResource Remove="Images\**" />
+    <EmbeddedResource Remove="Views\Новая папка\**" />
+    <EmbeddedResource Remove="wwwroot\Images\**" />
+    <None Remove="Images\**" />
+    <None Remove="Views\Новая папка\**" />
+    <None Remove="wwwroot\Images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ShopController.cs" />
+    <Compile Remove="Views\Home\Kont.cshtml.cs" />
+    <Compile Remove="Views\Home\ProNas.cshtml.cs" />
+  </ItemGroup>
+
+</Project>
